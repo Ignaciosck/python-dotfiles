@@ -11,13 +11,13 @@ Neovim environment for Python developing (LSP, Debugger, Tmux, Completion, Snipp
 
  > Install requires Neovim 0.9+.
 
-Clone the repository and install the plugins:
+Clone the repository:
 
 ```sh
 git clone git@github.com:Ignaciosck/dotfiles ~/.config/Ignaciosck/dotfiles
 ```
 
-Use GNU Stow to symlink the config files:
+Use GNU Stow to symlink the config files (while inside dotfiles):
 
 ```sh
 stow *
