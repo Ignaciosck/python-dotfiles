@@ -1,28 +1,45 @@
-# dotfiles/nvim/.config
+# Dotfiles
 
-<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugins?style=flat" /></a>
-<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=flat" /></a>
-<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=flat" /></a>
+<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugins?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
+Neovim environment for Python developing (LSP, Debugger, Tmux, Completion, Snippets, etc)
+>⚠️ **Warning: keybinds may not be beginner friendly**
 
 ## Install Instructions
 
- > Install requires Neovim 0.9+. Always review the code before installing a configuration.
+ > Install requires Neovim 0.9+.
 
-Clone the repository and install the plugins:
+Clone the repository:
 
 ```sh
 git clone git@github.com:Ignaciosck/dotfiles ~/.config/Ignaciosck/dotfiles
 ```
 
-Open Neovim with this config:
+Use GNU Stow to symlink the config files (while inside dotfiles):
 
 ```sh
-NVIM_APPNAME=Ignaciosck/dotfiles/nvim/.config nvim
+stow *
 ```
+## Tmux Configuration
+The tmux configuration in this repository includes the following features and customizations:
 
-## Plugins
+* Terminal and Colors: Configures the terminal to use screen-256color and enables RGB color support.
+* Custom Keybindings: Changes the tmux prefix key to **Ctrl-a** instead of the default **Ctrl-b**. 
+    
+    Adds new shortcuts to split windows horizontally (|) and vertically (-), resize panes (j, k, h, l), maximize/restore a pane (m), and reload the configuration (r).
+* Vim-style Copy Mode: Enables Vim-like keybindings in copy mode, adding shortcuts for selecting (v) and copying text (y).
+* Neovim Integration: Detects if Neovim is running and adjusts the behavior of Alt + arrow key combinations to either navigate tmux panes or move within Neovim.
+* Session Management:
+    * Integrates with [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) and [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) to automatically save and restore sessions, allowing manual session saving with Ctrl-a S.
+    * Includes support for the [nvim-tmux-navigator](https://github.com/alexghergh/nvim-tmux-navigation) plugin to facilitate seamless navigation between tmux panes and Neovim windows.
+* Mouse Mode: Enables mouse support for interacting with tmux panes.
+### Plugins
+ Uses [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) to manage additional plugins like tmux-resurrect, tmux-continuum, and vim-tmux-navigator.
 
+## Neovim Plugins
+This configuration was designed to work in Unix environments, especially those managing Python backends. The setup enhances productivity, supports various development workflows, and includes tools for code completion, debugging, syntax highlighting, and project management. Here's an overview of the key plugins included:
 ### colorscheme
 
 + [catppuccin/nvim](https://dotfyle.com/plugins/catppuccin/nvim)
@@ -106,7 +123,3 @@ NVIM_APPNAME=Ignaciosck/dotfiles/nvim/.config nvim
 
 + [stevearc/dressing.nvim](https://dotfyle.com/plugins/stevearc/dressing.nvim)
 + [folke/noice.nvim](https://dotfyle.com/plugins/folke/noice.nvim)
-+ [rcarriga/nvim-notify](https://dotfyle.com/plugins/rcarriga/nvim-notify)
-## Language Servers
-
-+ pyright
