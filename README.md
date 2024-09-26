@@ -4,8 +4,12 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=for-the-badge" /></a>
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
-Tmux + Zsh (syntax highlight, completion, suggestions)
+>❗❗❗❗**IMPORTANT** ❗❗❗❗
+> Install script has only been tested to work on Ubuntu 22.04 LTS ![keepaneye](https://i.imgur.com/E8pUviC.png)
 
+
+Tmux + Zsh (syntax highlight, completion, suggestions)
+Docker Desktop (+ engine)
 Neovim environment for Python developing (LSP, Debugger, Completion, Snippets, etc)
 
 >⚠️ **Warning: keybinds may not be beginner friendly, use at your own risk**
@@ -36,6 +40,8 @@ Use GNU Stow to symlink the config files (while inside dotfiles):
 ```sh
 stow -d ~/.config/Ignaciosck/dotfiles -t ~ *
 ```
+
+Be ware of dependencies (acquire them somehow) ![woops](https://i.imgur.com/94OL4Lv.png)
 ## Tmux Configuration
 The tmux configuration in this repository includes the following features and customizations:
 
