@@ -44,7 +44,7 @@ rm nvim-linux64.tar.gz
 sudo apt install -y stow
 
 # Install Python3 and pip
-sudo apt install -y python3 python3-pip
+sudo apt install -y python3 python3-pip python3-venv
 
 # Install fnm (Node.js version manager)
 if ! command -v fnm &> /dev/null; then
