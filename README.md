@@ -33,7 +33,7 @@ The tmux configuration in this repository includes the following features and cu
 * Neovim Integration: Detects if Neovim is running and adjusts the behavior of Alt + arrow key combinations to either navigate tmux panes or move within Neovim.
 * Session Management:
     * Integrates with [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) and [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) to automatically save and restore sessions, allowing manual session saving with Ctrl-a S.
-    * Includes support for the vim-tmux-navigator plugin to facilitate seamless navigation between tmux panes and Neovim windows.
+    * Includes support for the [nvim-tmux-navigator](https://github.com/alexghergh/nvim-tmux-navigation) plugin to facilitate seamless navigation between tmux panes and Neovim windows.
 * Mouse Mode: Enables mouse support for interacting with tmux panes.
 ### Plugins
  Uses [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) to manage additional plugins like tmux-resurrect, tmux-continuum, and vim-tmux-navigator.
