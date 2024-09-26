@@ -84,11 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
+export EDITOR=nvim
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -106,9 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$HOME/.local/share/fnm:$PATH"
 eval "$(fnm env)"
-
-# Add custom directories to PATH
-export PATH="$PATH:/opt/nvim-linux64/bin"
 
 # Add custom directories to PATH
 export PATH="$PATH:/opt/nvim-linux64/bin"
