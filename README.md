@@ -12,7 +12,7 @@ Neovim environment for Python developing (LSP, Debugger, Completion, Snippets, e
 
  > Install requires Neovim 0.9+.
 ## Auto install
-
+Copy the installation script (dos2unix may be needed) and execute it:
 ```
 bash install_script.sh
 ```
