@@ -7,6 +7,7 @@
 Tmux + Zsh (syntax highlight, completion, suggestions)
 
 Neovim environment for Python developing (LSP, Debugger, Completion, Snippets, etc)
+
 >⚠️ **Warning: keybinds may not be beginner friendly, use at your own risk**
 >![catshrug](https://i.imgur.com/qZjqx8T.png)
 
