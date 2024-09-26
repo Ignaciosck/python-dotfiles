@@ -32,11 +32,11 @@ The tmux configuration in this repository includes the following features and cu
 * Vim-style Copy Mode: Enables Vim-like keybindings in copy mode, adding shortcuts for selecting (v) and copying text (y).
 * Neovim Integration: Detects if Neovim is running and adjusts the behavior of Alt + arrow key combinations to either navigate tmux panes or move within Neovim.
 * Session Management:
-    * Integrates with tmux-resurrect and tmux-continuum to automatically save and restore sessions, allowing manual session saving with Ctrl-a S.
+    * Integrates with [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) and [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) to automatically save and restore sessions, allowing manual session saving with Ctrl-a S.
     * Includes support for the vim-tmux-navigator plugin to facilitate seamless navigation between tmux panes and Neovim windows.
 * Mouse Mode: Enables mouse support for interacting with tmux panes.
 ### Plugins
- Uses tpm (Tmux Plugin Manager) to manage additional plugins like tmux-resurrect, tmux-continuum, and vim-tmux-navigator.
+ Uses [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) to manage additional plugins like tmux-resurrect, tmux-continuum, and vim-tmux-navigator.
 
 ## Neovim Plugins
 This configuration was designed to work in Unix environments, especially those managing Python backends. The setup enhances productivity, supports various development workflows, and includes tools for code completion, debugging, syntax highlighting, and project management. Here's an overview of the key plugins included:
