@@ -20,6 +20,7 @@ bash install_script.sh
 
 ## Manual installation
 If script doesnt work for you (😹😹😹😹🫵)
+
 Clone the repository:
 
 ```sh
