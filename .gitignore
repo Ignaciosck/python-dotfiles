@@ -1,0 +1,14 @@
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+nvim/.config/lazy-lock.json
+nvim/.config/.luarc.json
+
+**/.DS_Store
+**/Thumbs.db
+
+.tmux.conf.local
+
