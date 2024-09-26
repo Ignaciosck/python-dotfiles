@@ -1,7 +1,5 @@
-
-
-local config = require("wezterm").config_builder()
-
+local wezterm = require("wezterm")
+local config = wezterm.config_builder()
 
 
 config.font =
