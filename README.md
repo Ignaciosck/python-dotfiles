@@ -4,13 +4,21 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=for-the-badge" /></a>
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
-Neovim environment for Python developing (LSP, Debugger, Tmux, Completion, Snippets, etc)
+Tmux + Zsh (syntax highlight, completion, suggestions)
+Neovim environment for Python developing (LSP, Debugger, Completion, Snippets, etc)
 >⚠️ **Warning: keybinds may not be beginner friendly**
 
 ## Install Instructions
 
  > Install requires Neovim 0.9+.
+## Auto install
 
+```
+bash install_script.sh
+```
+
+## Manual installation
+If script doesnt work for you (😹😹😹😹🫵)
 Clone the repository:
 
 ```sh
