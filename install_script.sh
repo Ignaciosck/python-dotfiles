@@ -144,7 +144,7 @@ fi
 # Add plugins to .zshrc
 if ! grep -q "zsh-autocomplete" ~/.zshrc; then
     echo "Adding plugins to .zshrc..."
-    sed -i 's/plugins=(/plugins=(zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting /' ~/.zshrc
+    sed -i 's/plugins=(/plugins=(zsh-syntax-highlighting zsh-autocomplete zsh-autosuggestions  /' ~/.zshrc
 fi
 
 echo "Installation of dependencies completed! Installing dotfiles..."
