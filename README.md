@@ -5,6 +5,7 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
 Tmux + Zsh (syntax highlight, completion, suggestions)
+
 Neovim environment for Python developing (LSP, Debugger, Completion, Snippets, etc)
 >⚠️ **Warning: keybinds may not be beginner friendly**
 
