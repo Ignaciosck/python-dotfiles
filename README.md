@@ -1,4 +1,4 @@
-# dotfiles/nvim/.config
+# Dotfiles
 
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugins?style=flat" /></a>
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=flat" /></a>
