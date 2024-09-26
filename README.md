@@ -5,6 +5,7 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
 >❗❗❗❗**IMPORTANT** ❗❗❗❗
+>
 > Install script has only been tested to work on Ubuntu 22.04 LTS
 
 ![keepaneye](https://i.imgur.com/E8pUviC.png)
