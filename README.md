@@ -5,7 +5,10 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
 >❗❗❗❗**IMPORTANT** ❗❗❗❗
-> Install script has only been tested to work on Ubuntu 22.04 LTS ![keepaneye](https://i.imgur.com/E8pUviC.png)
+> Install script has only been tested to work on Ubuntu 22.04 LTS
+
+![keepaneye](https://i.imgur.com/E8pUviC.png)
+
 
 
 Tmux + Zsh (syntax highlight, completion, suggestions)
@@ -41,7 +44,7 @@ Use GNU Stow to symlink the config files (while inside dotfiles):
 stow -d ~/.config/Ignaciosck/dotfiles -t ~ *
 ```
 
-Be ware of dependencies (acquire them somehow) ![woops](https://i.imgur.com/94OL4Lv.png)
+Be ware of dependencies (acquire them somehow) ![woops](https://i.imgur.com/sALoaW8.png)
 ## Tmux Configuration
 The tmux configuration in this repository includes the following features and customizations:
 
