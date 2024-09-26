@@ -4,8 +4,8 @@
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/leaderkey?style=for-the-badge" /></a>
 <a href="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config"><img src="https://dotfyle.com/Ignaciosck/dotfiles-nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
 
-
-Neovim environment for Python developing (LSP, Debugger, Tmux)
+Neovim environment for Python developing (LSP, Debugger, Tmux, Completion, Snippets, etc)
+>⚠️ **Warning: keybinds may not be beginner friendly**
 
 ## Install Instructions
 
