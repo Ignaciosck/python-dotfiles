@@ -14,13 +14,13 @@ Neovim environment for Python developing (LSP, Debugger, Tmux, Completion, Snipp
 Clone the repository:
 
 ```sh
-git clone git@github.com:Ignaciosck/dotfiles ~/.config/Ignaciosck/dotfiles
+git clone https://github.com/Ignaciosck/dotfiles.git ~/.config/Ignaciosck/dotfiles
 ```
 
 Use GNU Stow to symlink the config files (while inside dotfiles):
 
 ```sh
-stow *
+stow -d ~/.config/Ignaciosck/dotfiles -t ~ *
 ```
 ## Tmux Configuration
 The tmux configuration in this repository includes the following features and customizations:
