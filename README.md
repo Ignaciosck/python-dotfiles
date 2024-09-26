@@ -19,8 +19,10 @@ bash install_script.sh
 ```
 
 ## Manual installation
-If script doesnt work for you (😹😹😹😹🫵)
-[![catlaugh](https://i.imgur.com/FiDkB7A.png)
+If script doesnt work for you
+
+[catlaugh](https://i.imgur.com/FiDkB7A.png)
+
 Clone the repository:
 
 ```sh
