@@ -45,7 +45,7 @@ Use GNU Stow to symlink the config files (while inside dotfiles):
 stow -d ~/.config/Ignaciosck/dotfiles -t ~ *
 ```
 
-Be ware of dependencies (acquire them somehow) ![woops](https://i.imgur.com/sALoaW8.png)
+Beware of dependencies (acquire them somehow) ![woops](https://i.imgur.com/sALoaW8.png)
 ## Tmux Configuration
 The tmux configuration in this repository includes the following features and customizations:
 
