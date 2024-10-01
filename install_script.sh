@@ -100,9 +100,9 @@ fi
 echo "Installing SourceCodePro Nerd Font..."
 FONT_DIR="$HOME/.local/share/fonts"
 mkdir -p "$FONT_DIR"
-curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/SourceCodePro.zip
-unzip -o SourceCodePro.zip -d "$FONT_DIR"
-rm SourceCodePro.zip
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+unzip -o JetBrainsMono.zip -d "$FONT_DIR"
+rm JetBrainsMono.zip
 
 # Refresh font cache
 echo "Refreshing font cache..."
