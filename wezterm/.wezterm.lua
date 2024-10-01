@@ -4,14 +4,14 @@ local config = wezterm.config_builder()
 
 config.font =
 
-  wezterm.font('SauceCodePro Nerd Font')
+  wezterm.font('JetBrainsMono Nerd Font Mono')
 
 config.font_size = 12
 
 
 
 config.enable_tab_bar = true
-
+config.front_end = "WebGpu"
 config.window_decorations = "RESIZE"
 
 
